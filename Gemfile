@@ -11,6 +11,11 @@ gem 'rails', '~> 5.0.2'
 
 # add bcrypt() which is used for encrypt the password
 gem 'bcrypt', '~> 3.1.11'
+
+# add will_paginate
+gem 'will_paginate', '3.1'
+gem 'bootstrap-will_paginate'
+
 # Use sqlite3 as the database for Active Record
 # gem 'sqlite3'
 # Use Puma as the app server
